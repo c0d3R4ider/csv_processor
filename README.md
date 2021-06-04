@@ -1,21 +1,22 @@
 # CsvProcessor
 
-**TODO: Add description**
+**TODO: **
 
-## Installation
+ - [ ] Initial set up.
+ - [ ] PostgreSQL
+   - [ ] Config Postgrex - Ecto library
+   - [ ] Config Repo with PostgreSQL
+ - [ ] MongoDB
+ - [ ] RabbitMQ
+ - [ ] Broadway
+ - [ ] CSV
+   - [ ] Integrate CSV lib
+   - [ ] Process and verify
+   - [ ] Insert in Postgresql
+   - [ ] Insert in MongoDB
+   - [ ] Send to Rabbit/Broadway
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `csv_processor` to your list of dependencies in `mix.exs`:
 
-```elixir
-def deps do
-  [
-    {:csv_processor, "~> 0.1.0"}
-  ]
-end
-```
+## Summary
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/csv_processor](https://hexdocs.pm/csv_processor).
-
+CSV file processor app, store data in Postgresql, MongoDB and publish/send data via RabbitMQ and Broadway.
