@@ -5,7 +5,7 @@ defmodule CsvProcessor.Model.User do
 
   schema "users" do
     field(:UID, :string)
-    field(:position, :integer)
+    field(:code, :integer)
     field(:first_name, :string)
     field(:last_name, :string)
     field(:primary_email, :string)
@@ -19,7 +19,7 @@ defmodule CsvProcessor.Model.User do
     model
     |> cast(params, [
       :UID,
-      :position,
+      :code,
       :first_name,
       :last_name,
       :primary_email,
