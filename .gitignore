@@ -1,0 +1,11 @@
+/_build/
+/cover/
+/deps/
+/doc/
+/.fetch
+erl_crash.dump
+*.ez
+csv_processor-*.tar
+/tmp/
+/.elixir_ls/
+
