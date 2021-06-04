@@ -2,19 +2,30 @@
 
 **TODO: **
 
- - [ ] Initial set up.
- - [ ] PostgreSQL
-   - [ ] Config Postgrex - Ecto library
-   - [ ] Config Repo with PostgreSQL
+ - [x] Initial set up.
+ - [x] PostgreSQL
+   - [x] Config Postgrex - Ecto library
+   - [x] Config Repo with PostgreSQL
  - [ ] MongoDB
  - [ ] RabbitMQ
+   - [ ] Create RabbitMQ GenServer
+   - [ ] Send message to RabbitMQ
+   - [ ] Consume message from RabbitMQ
  - [ ] Broadway
+   - [ ] Create Broadway GenServer
+   - [ ] Send messaget to Broadway RabbitMQ
+   - [ ] Consume message from RabbitMQ
  - [ ] CSV
-   - [ ] Integrate CSV lib
+   - [x] Integrate CSV lib
    - [ ] Process and verify
    - [ ] Insert in Postgresql
    - [ ] Insert in MongoDB
    - [ ] Send to Rabbit/Broadway
+ - [ ] Unit Testing
+   - [X] Testing User Postgres Model
+   - [ ] Testing User Mongo Model
+   - [X] Testing Extractor CSV Module
+   - [ ] Testing 
 
 
 ## Summary
